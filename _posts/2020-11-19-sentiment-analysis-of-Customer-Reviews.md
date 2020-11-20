@@ -25,17 +25,17 @@ The aim of the project is to build a classification model to classify the review
 
 There are Four metrics used to evaluate the peformance of the model:
 
-1. **Accuracy:** Gives us a measure of how often the predictions of the classifier are correct
-   --> **(True Positives + True Negatives)/(True Positives + False Positives + True Negatives + False Negatives)**
+1. **Accuracy:** Gives us a measure of how often the predictions of the classifier are correct.
+* **(True Positives + True Negatives)/(True Positives + False Positives + True Negatives + False Negatives)**
 
-2. **Recall:** Also called as 'True Positive Rate', it gives us a measure of how often the model predicted an 'yes' for  an actual 'yes'
-   --> **True Positives/(True Positives + False Negatives)**
+2. **Recall:** Also called as 'True Positive Rate', it gives us a measure of how often the model predicted an 'yes' for  an actual 'yes'.
+* **True Positives/(True Positives + False Negatives)**
 
-3. **Precision:** Gives us a measure of how often the model was correct when it predicted an 'yes'
-   --> **True Positives/(True Positives + False Positives)**
+3. **Precision:** Gives us a measure of how often the model was correct when it predicted an 'yes'.
+* **True Positives/(True Positives + False Positives)**
    
 4. **F1 Score:** Gives the weighted average of Precision and Recall.
-   --> **2(Recall  Precision) / (Recall + Precision)**
+* **2(Recall  Precision) / (Recall + Precision)**
 
 ## Analysis:
 
