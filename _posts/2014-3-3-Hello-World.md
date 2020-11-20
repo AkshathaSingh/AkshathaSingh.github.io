@@ -36,3 +36,14 @@ So lets analyse the data about the data analyst job postings on Glassdoor to bet
 
 The data has been taken from Kaggle. There are 2253 observations / job postings with information on different features like ‘Salary Estimate’, ‘Rating’, ‘Location’, ‘Size of the company’, ‘Founded’, ‘Industry’, and ‘Sector’.
 
+
+Question 1. Which Industries and Sectors are offering a large number of Data Analyst jobs?
+
+![industry.PNG]({{site.baseurl}}/images/industry.PNG)
+
+The above plot shows the top 10 industries who posted a large number of data analyst jobs. we can see that a majority of data analyst jobs are posted by ‘IT Services’, ‘Staffing and Outsourcing’, ‘Health care services and Hospitals’ and ‘Consulting’ industries.
+
+![sector.PNG]({{site.baseurl}}/images/sector.PNG)
+
+
+From the plot we can see the distribution of sectors offering data analyst jobs. ‘Information Technology’, ‘Business Services’. ‘Finance’, and ‘Healthcare’ are the top sectors hiring a large number of data analysts.
