@@ -19,15 +19,30 @@ The two important parts of the process of sentiment Analysis is **Natural Langua
 
 In this project we are implementing a 3-way Sentiment Analysis of the customer reviews of the Amazon’s Grocery and Gourmet Food Platform to understand the sentiment of a wide range of reviewers about the platform. We will classify the reviews as positive, negative or neutral with the help of machine learning and preprocess our data in an unstructured text format using natural language processing.
 
-The data has been taken from Amazon Reviews Data, Julian McAuley UCSD. The dataset consists of 5000 reviews with ratings on the scale of 1-5. The implementation of the project is divided into the following parts, Data Collection and Cleaning, Data Preprocessing, Classification using machine learning and Model Evaluation.  
+The aim of the project is to build a classification model to classify the reviews with high accuracy. The implementation of the project is divided into the following parts, Data Collection and Cleaning, Data Preprocessing, Classification using machine learning and Model Evaluation.  
 
 ## Metrics:
 
+There are Four metrics used to evaluate the peformance of the model:
+
+1. **Accuracy:** Gives us a measure of how often the predictions of the classifier are correct
+   --> **(True Positives + True Negatives)/(True Positives + False Positives + True Negatives + False Negatives)**
+
+2. **Recall:** Also called as 'True Positive Rate', it gives us a measure of how often the model predicted an 'yes' for  an actual 'yes'
+   --> **True Positives/(True Positives + False Negatives)**
+
+3. **Precision:** Gives us a measure of how often the model was correct when it predicted an 'yes'
+   --> **True Positives/(True Positives + False Positives)**
+   
+4. **F1 Score:** Gives the weighted average of Precision and Recall.
+   --> **2(Recall  Precision) / (Recall + Precision)**
 
 
 ## Data Collection:
 
-The customer reviews data of Amazon's Grocery and Gourmet Food platform is in json format and the data is unstructured. There are around 5 million reviews, I have collected a set of 5000 reviews to implement the project. I followed the following steps to complete the process of Data Collection.
+The customer reviews data of Amazon's Grocery and Gourmet Food platform is in json format and the data is unstructured. The data has been taken from Amazon Review Data, Julian McAuley UCSD. The dataset consists of 5000 reviews with ratings on the scale of 1-5.There are around 5 million reviews, I have collected a set of 5000 reviews to implement the project. 
+
+Steps to complete the process of Data Collection:
 
 * Created a dataframe by converting the unstructured data in a structured format and saved the data as a csv file.
 * Removed the columns not relevant for our project.
