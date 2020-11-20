@@ -37,13 +37,32 @@ So lets analyse the data about the data analyst job postings on Glassdoor to bet
 The data has been taken from Kaggle. There are 2253 observations / job postings with information on different features like ‘Salary Estimate’, ‘Rating’, ‘Location’, ‘Size of the company’, ‘Founded’, ‘Industry’, and ‘Sector’.
 
 
-Question 1. Which Industries and Sectors are offering a large number of Data Analyst jobs?
+**Question 1. Which Industries and Sectors are offering a large number of Data Analyst jobs?**
 
 ![industry.PNG]({{site.baseurl}}/images/industry.PNG)
 
-The above plot shows the top 10 industries who posted a large number of data analyst jobs. we can see that a majority of data analyst jobs are posted by ‘IT Services’, ‘Staffing and Outsourcing’, ‘Health care services and Hospitals’ and ‘Consulting’ industries.
+The above plot shows the top 10 industries who posted most number of data analyst jobs. A majority of data analyst jobs are posted by ‘IT Services’, ‘Staffing and Outsourcing’, ‘Health care services and Hospitals’ and ‘Consulting’ industries.
 
 ![sector.PNG]({{site.baseurl}}/images/sector.PNG)
 
 
-From the plot we can see the distribution of sectors offering data analyst jobs. ‘Information Technology’, ‘Business Services’. ‘Finance’, and ‘Healthcare’ are the top sectors hiring a large number of data analysts.
+From the plot we can see the distribution of different sectors offering data analyst jobs. ‘Information Technology’, ‘Business Services’. ‘Finance’, and ‘Healthcare’ are the top sectors hiring data analysts.
+
+**Question 2. Which state has more Data Analyst opportunities and a high Average Salary?**
+
+Having a good salary and job satisfaction are the two most important requirements of any job. Lets see which states have more opportunities and offer a high average salary.
+
+![salary dis.PNG]({{site.baseurl}}/images/salary dis.PNG)
+
+
+The distribution of the Salary Estimate shows the minimum salary, average salary and maximum salary values. Majority of jobs lie in the range of 40k to 80k dollars and there are very few job postings with an annual salary of more than 125k dollars.
+
+![sal state.PNG]({{site.baseurl}}/images/sal state.PNG)
+
+
+The states with a high 'average salary' for the data analyst jobs are California, Illinois, New Jersey, New York, and Colorado.
+
+![state num.PNG]({{site.baseurl}}/images/state num.PNG)
+
+And the states with a large number of postings are California, Texas, New york, and Illinois.
+
