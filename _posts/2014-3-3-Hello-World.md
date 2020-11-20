@@ -1,6 +1,6 @@
 ---
 layout: post
-title: _posts/2020-20-11/3 Things to know about the "Data Analyst" Job Market.md
+title: 3 Things to know about the "Data Analyst" Job Market
 published: true
 ---
 
