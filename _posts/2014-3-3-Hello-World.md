@@ -9,17 +9,21 @@ published: true
 
 ## Introduction
 
-Due to the widespread use of the internet and smartphones, businesses have gathered enormous amounts of data over the last two decades and this is expected to just keep increasing. This data needs to be analyzed and managed to extract meaningful information which can then be used to make informed business decisions. 
+The internet and smartphones have become an integral part of our lives and our communication to anything and anyone in the world, this has led to the generation of enormous amount of data over the last two decades. Making use of this gold mine efficiently has become a significant part of the business processes in all organiations. 
 
-From businesses having a very few people with the skill set of becoming a data science professional, the data science job market has become highly competitive today. Apart from being the sexiest job of the 21 century, the data science jobs are one of the most in demand jobs post pandemic.
+This data needs to be analyzed and managed to extract meaningful information which can then be used to make informed business decisions. 
 
-How do we generally go about looking for jobs? We go on different job sites, search for companies currently hiring for data analyst positions and submit our application, and never hear back from them almost all the time. 
+From lacking people with the skill set of handling data in organizations and bringing value from it to the increase in the number of people graduating with Data Analytics degree today, the demand along with the supply of data science professionals is rapidly growing. The job market for data science professionals has become extremely competitive.
 
-So before we start our journey of job search it’s good to know as much as we can about the thing we are getting into. 
+According to the World Economic Forum, 'Data Analyst' will be one of the most in-demand jobs by 2022. Apart from being the sexiest job of the 21 century, the data science jobs are one of the most in demand jobs post pandemic as well.
 
-More knowledge = more leverage
+when it comes to job search, How do we generally go about looking for jobs? We go on different job sites, search for companies currently hiring for our desried positions, research about the company, tweak our resume and submit our application. This consumes a lot of time and thus makes it necessary to enhance the process and increase our probability of success.
 
-Lets analyse the data about the data analyst job postings to better understand the job market and answer three important questions which would help us in our job search.
+It’s good to know as much as we can about the thing we are getting into. 
+
+More knowledge = More leverage
+
+So lets analyse the data about the data analyst job postings to better understand the job market and answer three important questions which could help us in our job search.
 
 1. Which Industries and Sectors are offering a large number of Data Analyst jobs?
 2. Which state has more Data Analyst opportunities and a high Average Salary? 
