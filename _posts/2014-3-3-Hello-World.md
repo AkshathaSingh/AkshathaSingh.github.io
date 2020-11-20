@@ -11,11 +11,15 @@ published: true
 
 The internet and smartphones have become an integral part of our lives and our communication to anything and anyone in the world, this has led to the generation of enormous amount of data over the last two decades. Making use of this gold mine efficiently has become a significant part of the business processes in all organiations. 
 
+
 This data needs to be analyzed and managed to extract meaningful information which can then be used to make informed business decisions. 
+
 
 From lacking people with the skill set of handling data in organizations and bringing value from it to the increase in the number of people graduating with Data Analytics degree today, the demand along with the supply of data science professionals is rapidly growing. The job market for data science professionals has become extremely competitive.
 
+
 According to the World Economic Forum, 'Data Analyst' will be one of the most in-demand jobs by 2022. Apart from being the sexiest job of the 21 century, the data science jobs are one of the most in demand jobs post pandemic as well.
+
 
 when it comes to job search, How do we generally go about looking for jobs? We go on different job sites, search for companies currently hiring for our desried positions, research about the company, tweak our resume and submit our application. This consumes a lot of time and thus makes it necessary to enhance the process and increase our probability of success.
 
@@ -23,9 +27,12 @@ It’s good to know as much as we can about the thing we are getting into.
 
 More knowledge = More leverage
 
-So lets analyse the data about the data analyst job postings to better understand the job market and answer three important questions which could help us in our job search.
+
+So lets analyse the data about the data analyst job postings on Glassdoor to better understand the job market and answer three important questions which could help us in our job search.
 
 1. Which Industries and Sectors are offering a large number of Data Analyst jobs?
 2. Which state has more Data Analyst opportunities and a high Average Salary? 
 3. What is the nature of the companies offering a large number of Data Analyst Jobs?
+
+The data has been taken from Kaggle. There are 2253 observations / job postings with information on different features like ‘Salary Estimate’, ‘Rating’, ‘Location’, ‘Size of the company’, ‘Founded’, ‘Industry’, and ‘Sector’.
 
