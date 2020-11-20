@@ -37,24 +37,42 @@ There are Four metrics used to evaluate the peformance of the model:
 4. **F1 Score:** Gives the weighted average of Precision and Recall.
    --> **2(Recall  Precision) / (Recall + Precision)**
 
+## Analysis:
 
-## Data Collection:
+## Data Exploration:
 
 The customer reviews data of Amazon's Grocery and Gourmet Food platform is in json format and the data is unstructured. The data has been taken from Amazon Review Data, Julian McAuley UCSD. The dataset consists of 5000 reviews with ratings on the scale of 1-5.There are around 5 million reviews, I have collected a set of 5000 reviews to implement the project. 
 
-Steps to complete the process of Data Collection:
+* Data collected in unstructured format.
+de1
 
 * Created a dataframe by converting the unstructured data in a structured format and saved the data as a csv file.
-* Removed the columns not relevant for our project.
-* Renamed the columns as ‘Reviews’ and ‘Rating’.
-* Checked for the presence of missing values and dropped the rows with missing values.
+de2
+
+* Checked for the presence missing values using a heatmap.
+de3
+
+* Removed the columns not relevant for our project and renamed the columns as ‘Reviews’ and ‘Rating’.
+de4
+
+* Dropped the rows with missing values in the 'Reviews' column of the dataset.
+de5
+
+## Data Visualiation:
+
+* The plot shows the distribution of the Rating column of the data, we can observe that we have an imbalanced dataset.
+de6
+
+* The plot shows the most repeated words in the reviews used by the reviewers.
+wc
+
+## Methodology:
 
 ## Data Preprocessing:
 
-As our data is in text format, the preprocessing step has been carried out with the help of Natural Language Processing, this step is done to **transform the data in a format which is compatible with our machine learning model to train on.**
+As our data is in text format, the preprocessing step has been carried out with the help of Natural Language Processing, NLTK library. This step is done to **transform the data in a format which is compatible with our machine learning model to train on.**
 
-![wc.PNG]({{site.baseurl}}/images/wc.PNG)
-
+de7
 
 * Using the Regular Expression (re) package, substituted the special characters in our reviews with a space.
 * Transformed all the characters to lowercase.
@@ -64,11 +82,14 @@ As our data is in text format, the preprocessing step has been carried out with 
 * Finally, converted the data into a document matrix where sentences are replaced by a vector which gives the count of each word's occurrence in the corpus, this is referred as **Bag of words**.
 * Then the dataset is **split into a training set**, which is used by our machine learning model to learn on and a **test set**,which is used to evaluate the performance of our model.
 
-## Classification and Evaluation:
+**_(Complication: when looping through each review with its index to carry out the preprocessing step, an error occured where it couldn't find the index of the rows deleted due the missing values, fixed this error by resetting the index of the dataset)_**
 
-Here, three classification algorithms have been used to train the model, Naive Bayes Classifier, Decision Trees and Support Vector Machines. The performance of all the three models is compared and the one with highest is selected for predictions on new data.
+## Implementation:
 
 The algorithms are trained using the **training dataset** and are evaluated by comparing the predictions of the model on the test set with the actual values of the **test set**.
+
+Here, three classification algorithms have been used for training the model, Decision Trees, Support Vector Machines and Naive Bayes Classifier. The performance of all the three models is compared and the one with the highest accuracy and F1 score is selected for predictions on new data.
+
 
 * Naive Bayes Classifier:
 
