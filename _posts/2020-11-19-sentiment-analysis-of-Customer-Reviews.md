@@ -66,10 +66,12 @@ The customer reviews data of Amazon's Grocery and Gourmet Food platform is in js
 ## Data Visualiation:
 
 * The plot shows the distribution of the Rating column of the data, we can observe that we have an imbalanced dataset.
-de6
+![de6.PNG]({{site.baseurl}}/images/de6.PNG)
+
 
 * The plot shows the most repeated words in the reviews used by the reviewers.
-wc
+![wc.PNG]({{site.baseurl}}/images/wc.PNG)
+
 
 ## Methodology:
 
