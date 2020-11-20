@@ -79,7 +79,8 @@ The customer reviews data of Amazon's Grocery and Gourmet Food platform is in js
 
 As our data is in text format, the preprocessing step has been carried out with the help of Natural Language Processing, NLTK library. This step is done to **transform the data in a format which is compatible with our machine learning model to train on.**
 
-de7
+![de7!.PNG]({{site.baseurl}}/images/de7!.PNG)
+
 
 * Using the Regular Expression (re) package, substituted the special characters in our reviews with a space.
 * Transformed all the characters to lowercase.
