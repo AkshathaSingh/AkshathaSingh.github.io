@@ -66,3 +66,18 @@ The states with a high 'average salary' for the data analyst jobs are California
 
 And the states with a large number of postings are California, Texas, New york, and Illinois.
 
+Question 3. What is the nature of the companies offering a large number of Data Analyst Jobs?
+
+
+Understanding the characteristics of the companies hiring for data analysts can help us identify target companies in our sector of interest. 
+
+![ownership.PNG]({{site.baseurl}}/images/ownership.PNG)
+![founded.PNG]({{site.baseurl}}/images/founded.PNG)
+
+
+The private companies founded in the last two decades around the 2000’s are largely hiring Data Analysts.
+
+## Conclusion
+ 
+ With the right information we can enhance the process of our job search and increase the probalitiyt of succeeding.
+
