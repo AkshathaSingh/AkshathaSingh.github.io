@@ -24,10 +24,10 @@ The data has been taken from Amazon Reviews Data, Julian McAuley UCSD. The datas
 
 The customer reviews data of Amazon's Grocery and Gourmet Food platform is in json format and the data is unstructured. There are around 5 million reviews, I have collected a set of 5000 reviews to implement the project. I followed the following steps to complete the process of Data Collection.
 
-- Created a dataframe by converting the unstructured data in a structured format and saved the data as a csv file.
-- Removed the columns not relevant for our project.
-- Renamed the columns as ‘Reviews’ and ‘Rating’.
-- Checked for the presence of missing values and dropped the rows with missing values.
+* Created a dataframe by converting the unstructured data in a structured format and saved the data as a csv file.
+* Removed the columns not relevant for our project.
+* Renamed the columns as ‘Reviews’ and ‘Rating’.
+* Checked for the presence of missing values and dropped the rows with missing values.
 
 ## Data Preprocessing:
 
@@ -36,13 +36,13 @@ As our data is in text format, the preprocessing step has been carried out with 
 ![wc.PNG]({{site.baseurl}}/images/wc.PNG)
 
 
-- Using the Regular Expression (re) package, substituted the special characters in our reviews with a space.
-- Transformed all the characters to lowercase.
-- Then split sentences to words.
-- Removed stopwords and converted each word into its root form.
-- Combined all the reviews and created a corpus, a list of reviews.
-- Finally, converted the data into a document matrix where sentences are replaced by a vector which gives the count of each word's occurrence in the corpus, this is referred as **Bag of words**.
-- Then the dataset is **split into a training set**, which is used by our machine learning model to learn on and a **test set**,which is used to evaluate the performance of our model.
+* Using the Regular Expression (re) package, substituted the special characters in our reviews with a space.
+* Transformed all the characters to lowercase.
+* Then split sentences to words.
+* Removed stopwords and converted each word into its root form.
+* Combined all the reviews and created a corpus, a list of reviews.
+* Finally, converted the data into a document matrix where sentences are replaced by a vector which gives the count of each word's occurrence in the corpus, this is referred as **Bag of words**.
+* Then the dataset is **split into a training set**, which is used by our machine learning model to learn on and a **test set**,which is used to evaluate the performance of our model.
 
 ## Classification and Evaluation:
 
@@ -50,21 +50,21 @@ Here, three classification algorithms have been used to train the model, Naive B
 
 The algorithms are trained using the **training dataset** and are evaluated by comparing the predictions of the model on the test set with the actual values of the **test set**.
 
-- Naive Bayes Classifier:
+* Naive Bayes Classifier:
 
 ![nbc.PNG]({{site.baseurl}}/images/nbc.PNG)
 
 
 The accuracy in predictions of **Naive Bayes Classifier is 82%**
 
-- Decision Tree Classifier: 
+* Decision Tree Classifier: 
 
 ![dt.PNG]({{site.baseurl}}/images/dt.PNG)
 
 
 The accuracy in predictions of **Decision Tree is 76%**
 
-- Support Vector Machine: 
+* Support Vector Machine: 
 
 ![svm.PNG]({{site.baseurl}}/images/svm.PNG)
 
