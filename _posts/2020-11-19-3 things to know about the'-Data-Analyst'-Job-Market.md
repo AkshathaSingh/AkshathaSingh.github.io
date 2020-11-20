@@ -49,32 +49,32 @@ The data has been taken from Kaggle. There are 2253 observations / job postings 
 
 **2. Which state has more Data Analyst opportunities and a high Average Salary?**
 
--Having a good salary and job satisfaction are the two most important requirements of any job. Lets see which states have more opportunities and offer a high average salary.
+* Having a good salary and job satisfaction are the two most important requirements of any job. Lets see which states have more opportunities and offer a high average salary.
 
 ![salary dis.PNG]({{site.baseurl}}/images/salary dis.PNG)
 
 
--The distribution of the Salary Estimate shows the minimum salary, average salary and maximum salary values. Majority of jobs lie in the range of 40k to 80k dollars and there are very few job postings with an annual salary of more than 125k dollars.
+* The distribution of the Salary Estimate shows the minimum salary, average salary and maximum salary values. Majority of jobs lie in the range of 40k to 80k dollars and there are very few job postings with an annual salary of more than 125k dollars.
 
 ![sal state.PNG]({{site.baseurl}}/images/sal state.PNG)
 
 
--The states with a high 'average salary' for the data analyst jobs are California, Illinois, New Jersey, New York, and Colorado.
+* The states with a high 'average salary' for the data analyst jobs are California, Illinois, New Jersey, New York, and Colorado.
 
 ![state num.PNG]({{site.baseurl}}/images/state num.PNG)
 
--And the states with a large number of postings are California, Texas, New york, and Illinois.
+* And the states with a large number of postings are California, Texas, New york, and Illinois.
 
 **3. What is the nature of the companies offering a large number of Data Analyst Jobs?**
 
 
--Understanding the characteristics of the companies hiring for data analysts can help us identify target companies in our sector of interest. 
+* Understanding the characteristics of the companies hiring for data analysts can help us identify target companies in our sector of interest. 
 
 ![ownership.PNG]({{site.baseurl}}/images/ownership.PNG)
 ![founded.PNG]({{site.baseurl}}/images/founded.PNG)
 
 
--The private companies founded in the last two decades around the 2000’s are largely hiring Data Analysts.
+* The private companies founded in the last two decades around the 2000’s are largely hiring Data Analysts.
 
 ## Conclusion
  
