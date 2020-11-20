@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3 Things to know about the "Data Analyst" Job Market
+title: _posts/2020-20-11/3 Things to know about the "Data Analyst" Job Market.md
 published: true
 ---
 
@@ -80,4 +80,3 @@ The data has been taken from Kaggle. There are 2253 observations / job postings 
 ## Conclusion
  
  With the right information we can enhance the process of our job search and increase the probalitiyt of succeeding.
-
