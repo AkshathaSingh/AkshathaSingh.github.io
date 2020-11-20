@@ -33,13 +33,16 @@ The customer reviews data of Amazon's Grocery and Gourmet Food platform is in js
 
 As our data is in text format, the preprocessing step has been carried out with the help of Natural Language Processing, this step is done to **transform the data in a format which is compatible with our machine learning model to train on.**
 
+![wc.PNG]({{site.baseurl}}/images/wc.PNG)
+
+
 -Using the Regular Expression (re) package, substituted the special characters in our reviews with a space.
 -Transformed all the characters to lowercase.
 -Then split sentences to words.
 -Removed stopwords and converted each word into its root form.
 -Combined all the reviews and created a corpus, a list of reviews.
--Finally, converted the data into a document matrix where sentences are replaced by a vector which gives the count of each word's occurrence in the corpus, this is referred as Bag of words.
--Then the dataset is split into a training set, which is used by our machine learning model to learn on and a test set,which is used to evaluate the performance of our model.
+-Finally, converted the data into a document matrix where sentences are replaced by a vector which gives the count of each word's occurrence in the corpus, this is referred as **Bag of words**.
+-Then the dataset is **split into a training set**, which is used by our machine learning model to learn on and a **test set**,which is used to evaluate the performance of our model.
 
 ## Classification and Evaluation:
 
@@ -49,18 +52,27 @@ The algorithms are trained using the **training dataset** and are evaluated by c
 
 -Naive Bayes Classifier:
 
-The accuracy in predictions of **Naive Bayes Classifier is 85%**
+![nbc.PNG]({{site.baseurl}}/images/nbc.PNG)
+
+
+The accuracy in predictions of **Naive Bayes Classifier is 82%**
 
 -Decision Tree Classifier: 
 
-The accuracy in predictions of **Decision Tree is 81%**
+![dt.PNG]({{site.baseurl}}/images/dt.PNG)
+
+
+The accuracy in predictions of **Decision Tree is 76%**
 
 -Support Vector Machine: 
 
-The accuracy in predictions of **Support Vector Machine is 81%.**
+![svm.PNG]({{site.baseurl}}/images/svm.PNG)
+
+
+The accuracy in predictions of **Support Vector Machine is 79%.**
 
 ## Conclusion:
 
-**The classifier which is performing well on our data among the three is Naive Bayes Classifier with an Accuracy of 85%.** 
+**The classifier which is performing well on our data among the three is Naive Bayes Classifier with an Accuracy of 82%.** 
 
 This Concludes our project of Sentiment Analysis with a note that the accuracy of our models can be improved by creating a more **balanced dataset**.
