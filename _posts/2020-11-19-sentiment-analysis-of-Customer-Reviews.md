@@ -44,19 +44,24 @@ There are Four metrics used to evaluate the peformance of the model:
 The customer reviews data of Amazon's Grocery and Gourmet Food platform is in json format and the data is unstructured. The data has been taken from Amazon Review Data, Julian McAuley UCSD. The dataset consists of 5000 reviews with ratings on the scale of 1-5.There are around 5 million reviews, I have collected a set of 5000 reviews to implement the project. 
 
 * Data collected in unstructured format.
-de1
+![de1.PNG]({{site.baseurl}}/images/de1.PNG)
+
 
 * Created a dataframe by converting the unstructured data in a structured format and saved the data as a csv file.
-de2
+![de2.PNG]({{site.baseurl}}/images/de2.PNG)
+
 
 * Checked for the presence missing values using a heatmap.
-de3
+![de3.PNG]({{site.baseurl}}/images/de3.PNG)
+
 
 * Removed the columns not relevant for our project and renamed the columns as ‘Reviews’ and ‘Rating’.
-de4
+![de4.PNG]({{site.baseurl}}/images/de4.PNG)
+
 
 * Dropped the rows with missing values in the 'Reviews' column of the dataset.
-de5
+![de5.PNG]({{site.baseurl}}/images/de5.PNG)
+
 
 ## Data Visualiation:
 
