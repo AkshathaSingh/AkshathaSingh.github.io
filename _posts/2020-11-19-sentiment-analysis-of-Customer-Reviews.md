@@ -2,13 +2,19 @@
 published: true
 ---
 ![alex-motoc-iImF3APdKmk-unsplash.jpg]({{site.baseurl}}/images/alex-motoc-iImF3APdKmk-unsplash.jpg)
+
 <span>Photo by <a href="https://unsplash.com/@alexmotoc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alex Motoc</a> on <a href="https://unsplash.com/t/experimental?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
-Enormous amount of data is generated on digital platforms, especially in an unstructured format and mostly in text format like Reviews, Comments, Tweets, Captions, and Posts. It is difficult to shift through every piece of content to understand the opinion of the writer and the sentiment behind it and gather insights to make informed decisions. 
+
+Enormous amount of data is generated on digital platforms, especially in an unstructured format and mostly in text format like Reviews, Comments, Tweets, Captions, and Posts. 
+
+It is difficult to shift through every piece of content to understand the opinion of the writer and the sentiment behind it and gather insights to make informed decisions. 
 
 That’s where the process of Sentiment Analysis comes into the picture, it helps us understand the emotion and opinion of a wider range of audience about a product or topic of interest by identifying the sentiment behind it. 
 
 The two important parts of the process of sentiment Analysis is **Natural Language Processing** and **Machine Learning**, and the sentiments are classified as Positive, Neutral and Negative.
+
+## Overview:
 
 In this project we are implementing a 3-way Sentiment Analysis of the customer reviews of the Amazon’s Grocery and Gourmet Food Platform. We will classify the reviews as positive, negative or neutral with the help of machine learning and preprocess our data in an unstructured text format using natural language processing.
 
