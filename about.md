@@ -9,4 +9,4 @@ I am an aspiring Data Analyst and a recent graduate with Master's in Information
 
 ### Contact me
 
-[email@domain.com](mailto:akshathasingh23@gmail.com)
+[akshathasingh23@gmail.com](mailto:akshathasingh23@gmail.com)
