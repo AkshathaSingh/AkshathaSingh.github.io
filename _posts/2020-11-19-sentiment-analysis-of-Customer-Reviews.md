@@ -91,29 +91,58 @@ The algorithms are trained using the **training dataset** and are evaluated by c
 Here, three classification algorithms have been used for training the model, Decision Trees, Support Vector Machines and Naive Bayes Classifier. The performance of all the three models is compared and the one with the highest accuracy and F1 score is selected for predictions on new data.
 
 
-* Naive Bayes Classifier:
+* **Decision Tree Classifier:** 
+The Decision Tree classifier is a supervised machine learning algorithm, it consists of nodes, branches and leaf nodes, where every node splits into leaf nodes(decision nodes) based on the levels of the feature. 
 
-![nbc.PNG]({{site.baseurl}}/images/nbc.PNG)
+
+* **Support Vector Machine:**
+Support Vector Machine is a supervised machine learning algorithm and is used for both classification and Regression analysis. It produces accurate predictions with less computation power.
 
 
-The accuracy in predictions of **Naive Bayes Classifier is 82%**
 
-* Decision Tree Classifier: 
+* **Naive Bayes Classifier:**
+This classification algorithm is based on the Bayes' Theorem, where every feature being classidied is independent of each other.
 
+
+## Refinement:
+
+* To improve the accuracy of our prediction, we employed algorithms like Support Vector Machines and Naive Bayes Classifier along with Decision Tree classifier to compare the results and choose the best model.
+
+## Results:
+
+## Model Evaluation and Validation:
+The trained models are evaluated by comparing their predictions on the test dataset with the actual values of data.
+
+* Decision Tree Classifier:
 ![dt.PNG]({{site.baseurl}}/images/dt.PNG)
 
 
 The accuracy in predictions of **Decision Tree is 76%**
 
-* Support Vector Machine: 
-
+* Support Vector Machine:
 ![svm.PNG]({{site.baseurl}}/images/svm.PNG)
 
 
 The accuracy in predictions of **Support Vector Machine is 79%.**
 
+* Naive Bayes Classifier:
+![nbc.PNG]({{site.baseurl}}/images/nbc.PNG)
+
+
+The accuracy in predictions of **Naive Bayes Classifier is 82%**
+
+## Justification:
+
+
+* The accuracy improved from 76% to 82% with the implementation of Naive bayes Classifier. It is difficult to achieve a high accuracy and classify the reviews with high f1 score, recall and precision when the data is imbalanced, each algorithms performs well on different types of data, naive bayes algorithm performs well on datasets with both categorical features and continous features.
+
+
 ## Conclusion:
 
-**The classifier which is performing well on our data among the three is Naive Bayes Classifier with an Accuracy of 82%.** 
+## Reflection:
+* **The classifier which is performing well on our data among the three is Naive Bayes Classifier with an Accuracy of 82%.** 
+* One of the difficult aspects of the project was the transformation of text reviews into a document matrix and chosing and an appropriate algorithm for our data to fit the model.
+
+## Improvement:
 
 This Concludes our project of Sentiment Analysis with a note that the accuracy of our models can be improved by creating a more **balanced dataset**.
