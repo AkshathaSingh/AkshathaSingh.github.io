@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3 Things to know about the Data Analyst Job Market
+title: 3 Things to know about the "Data Analyst" Job Market
 published: true
 ---
 
@@ -18,7 +18,7 @@ This data needs to be analyzed and managed to extract meaningful information whi
 From lacking people with the skill set of handling data in organizations and bringing value from it to the increase in the number of people graduating with Data Analytics degree today, the demand along with the supply of data science professionals is rapidly growing. The job market for data science professionals has become extremely competitive.
 
 
-According to the World Economic Forum, 'Data Analyst' will be one of the most in-demand jobs by 2022. Apart from being the sexiest job of the 21 century, the data science jobs are one of the most in demand jobs post pandemic as well.
+**According to the World Economic Forum, 'Data Analyst' will be one of the most in-demand jobs by 2022.** Apart from being the sexiest job of the 21 century, the data science jobs are one of the most in demand jobs post pandemic as well.
 
 
 when it comes to job search, How do we generally go about looking for jobs? We go on different job sites, search for companies currently hiring for our desried positions, research about the company, tweak our resume and submit our application. This consumes a lot of time and thus makes it necessary to enhance the process and increase our probability of success.
